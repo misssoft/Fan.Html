@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset='utf-8' />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>jQuery Confirm Plugin Examples</title>
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="content/main.js"></script>
+    </head>
+<body>
+
+<h1>Dialog Samples</h1>
+<!-- hyperlink example -->
+<a id="delete_link" class="text-danger" href="http://www.example.com" data-confirm="Are you sure to delete using the link?">Delete Link</a>
+<hr/>
+
+<!-- button example -->
+<button id="delete_button" class="btn btn-danger" data-confirm="Are you sure to delete using the button?">Delete Button</button>
+
+<hr/>
+
+<!-- form example -->
+<form action="http://www.example.com" data-confirm="Are you sure you want to submit the form?">
+    <button id="submit_button" class="btn btn-info" type="submit">Submit</button>
+</form>
+
+<hr/>
+
+<!-- select option example -->
+<select>
+    <option>Select an option:</option>
+    <option data-confirm="Are you want to select this option 1?">Option 1</option>
+    
+    <option data-confirm="Are you want to select this option 2?">Option 2</option>
+
+    <option data-confirm="Are you want to select this option 3?">Option 3</option>
+</select>
+</body>
+</Html>
